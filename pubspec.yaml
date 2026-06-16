@@ -1,0 +1,50 @@
+name: jokes_app
+description: App de piadas aleatórias
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.10.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Gerenciamento de estado
+  flutter_riverpod: ^2.5.1
+
+  # Navegação
+  go_router: ^13.2.0
+
+  # HTTP
+  dio: ^5.4.3
+
+  # Geração de código JSON
+  json_annotation: ^4.9.0
+
+  # Persistência simples
+  shared_preferences: ^2.2.3
+
+  # SQLite
+  sqflite: ^2.3.3+1
+  path: ^1.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Geração de código
+  build_runner: ^2.4.9
+  json_serializable: ^6.8.0
+
+  # Testes de integração
+  integration_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
